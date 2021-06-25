@@ -68,7 +68,7 @@ public class hitMeParallelController {
 				for(int i=0;i<r.getCount();i++){
 				tasks.add(new GetRequestTask(r.getUrl(), this.executor));
 				}
-				 Integer parallelReqResponseTime = 0;
+				 //Integer parallelReqResponseTime = 0;
 				 
 				 while(!tasks.isEmpty()) {
 					
